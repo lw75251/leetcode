@@ -15,6 +15,7 @@ Solutions to Leetcode Problems
 | 8/20/2021      | [1323](Python_Solutions/1323_Maximum_69_Number.py)          |                                                                                                                                                                                             | Greedy                                     |
 | 8/20/2021      | [278](Python_Solutions/278_First_Bad_Version.py)            |                                                                                                                                                                                             | Binary Search                              |
 | 8/21/2021      | [13](Python_Solutions/13_Roman_to_Integer.py)               |                                                                                                                                                                                             | Programming                                |
+| 8/21/2021      | [397](Python_Solutions/397_Integer_Replacement.py)          | Refresher on Dynamic Programming and reminder that if there are repeated operations it can be faster to store those results.                                                                | Recursion, DP                              |
 
 ### SQL
 
