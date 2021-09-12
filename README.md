@@ -20,6 +20,8 @@ Solutions to Leetcode Problems
 | 8/23/2021      | [606](Python_Solutions/606_Construct_String_from_Binary_Tree.py)                        | Refresher on BST Traversals. Practice understanding the problem output format output                                                                                                        | BST, Traversal                             |
 | 8/23/2021      | [1779](Python_Solutions/1779_Find_Nearest_Point_That_Has_the_Same_X_or_Y_Coordinate.py) | Easy problem to practice writing helper functions to make code easier to read                                                                                                               | Programming                                |
 | 8/23/2021      | [1346](Python_Solutions/1346_Check_If_N_and_Its_Double_Exist.py)                        | Similar to 2Sum                                                                                                                                                                             | Sets, Array, One Pass                      |
+| 9/1/2021       | [434](Python_Solutions/434_Number_of_Segments_in_a_String.py)                           | Difference between split() and split(" "). Also, think about edge cases more.                                                                                                               | Programming                                |
+| 9/1/2021       | [1556](Python_Solutions/1556_Thousand_Separator.py)                                     | Review other solutions. Probably a better way                                                                                                                                               | Programming                                |
 
 ### SQL
 

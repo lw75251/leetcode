@@ -11,7 +11,7 @@ class Solution:
 
         # Time Complexity: O(n) by Master's Theorem.
         # Recurrence Relation = 2T(n/2) + O(1)
-        # Space Complexity: O(1)
+        # Space Complexity: O(n)
         """
         # Base Case: n == 1
         if n == 1:
@@ -36,7 +36,7 @@ class Solution:
         to be more efficient.
 
         # Time Complexity: O(n)
-        # Space Complexity: O(1)
+        # Space Complexity: O(n)
         """
         def min_operations(n: int):
             # Previously Calculated Result
