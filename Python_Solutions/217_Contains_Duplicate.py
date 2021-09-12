@@ -21,7 +21,7 @@ class Solution:
     """
     My Solution 2: O(n) Solution
 
-    Idea: Sort the elements, then go through to see if
+    IDEA: Sort the elements, then go through to see if
     any dups.
 
     # Time Complexity: O(nlogn)
@@ -38,7 +38,7 @@ class Solution:
     """
     One-Liner Solution: O(n) Solution
 
-    Idea: Compare the lengths of nums and the set of nums. If they're equal,
+    IDEA: Compare the lengths of nums and the set of nums. If they're equal,
     then we know all elements are unique. Otherwise, there were duplicates.
 
     # Time Complexity: O(n)

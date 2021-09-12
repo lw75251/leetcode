@@ -23,6 +23,8 @@ Solutions to Leetcode Problems
 | 9/09/2021      | [704](Python_Solutions/704_Binary_Search.py)                                            | m = (low + high) // 2 may overflow. We should use m = low + (high-low) // 2 instead                                                                                                         | Binary Search                              |
 | 9/09/2021      | [35](Python_Solutions/35_Search_Insert_Position.py)                                     | Think about how Binary Search exits and what you should return at the end                                                                                                                   | Binary Search                              |
 | 9/10/2021      | [217](Python_Solutions/217_Contains_Duplicate.py)                                       |                                                                                                                                                                                             | Sets                                       |
+| 9/11/2021      | [88](Python_Solutions/88_Merge_Sorted_Array.py)                                         | Think about a forward pointer, backward pointer, then two-pointer. In this case, backwards is best                                                                                          | Arrays                                     |
+| 9/11/2021      | [1](Python_Solutions/1_Two_Sum.py)                                                      | Useful trick saving the difference                                                                                                                                                          | Arrays, Sets                               |
 
 ### SQL
 
@@ -30,3 +32,15 @@ Solutions to Leetcode Problems
 | -------------- | ----------------------------------------------------------------------- | --------- |
 | 8/19/2021      | [182](SQL_Solutions/182_Duplicate_Emails.sql)                           |           |
 | 8/20/2021      | [181](SQL_Solutions/181_Employees_Earning_More_Than_Their_Managers.sql) |           |
+
+# Interview Query
+
+## Learnings
+
+### SQL
+
+| Date Completed | Problem                                                      | Learnings                                                                                                                                                                 | Difficulty |
+| -------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---- |
+| 9/11/2021      | [Download_Facts](Interview_Query/Download_Facts.sql)         | Make sure you know what "level" we are using aggregate functions on. If the table you are performing on is on the incorrect level, don't rely on the aggregate functions. | Easy       |
+| 9/11/2021      | [Daily_Active_Users](Interview_Query/Daily_Active_Users.sql) | Make sure you know what "level" we are using aggregate functions on. If the table you are performing on is on the incorrect level, don't rely on the aggregate functions. | Easy       |
+| 9/12/2021      | [Popular_Actions](Interview_Query/Popular_Actions.sql)       | Learned about `RANK()` and `Dense_Rank()` Functions. Syntax is `RANK() OVER( ORDER BY {column} {asc                                                                       | desc} )`   | Easy |
