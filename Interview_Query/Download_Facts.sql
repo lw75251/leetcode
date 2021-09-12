@@ -1,28 +1,36 @@
-/***
+"""
 user_dimension table
 | column     | type  |
-| ---------- | ----- |
++ ---------- + ----- +
 | user_id    | int   |
 | account_id | type  |
-| ---------- | ----- |
++ ---------- + ----- +
 
 account_dimension table
-| column     | type  |
-| --------------- | -------- |
+| column          | type     |
++ --------------- + -------- +
 | account_id      | int      |
 | paying_customer | boolean  |
-| --------------- | -------- |
++ --------------- + -------- +
 
 download_facts table
-| column     | type  |
-| --------------- | -------- |
+| column          | type     |
++ --------------- + -------- +
 | date            | date     |
 | user_id         | int      |
 | downloads       | int      |
-| --------------- | -------- |
++ --------------- + -------- +
 
 Problem: Find the average number of downloads for free vs paying customers broken out by day.
-***/
+
+Expected Output
+| column            | type     |
++ ----------------- + -------- +
+| date              | date     |
+| paying_customer   | int      |
+| average_downloads | float    |
++ ----------------- + -------- +
+"""
 
 select
     date,
